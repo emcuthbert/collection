@@ -1,0 +1,138 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #30c3ad;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: 500;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: url("images/greatlakesfromspace_angle.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.no-bg {
+  background-image: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  padding: 1em;
+  margin: 25vh auto;
+}
+
+/* Typography
+====================================================================== */
+
+p {
+  font-weight: 500;
+  margin: 0 0 1em 0;
+  color: #676262;
+  max-width: 35em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0 0 8px solid;
+  text-align: center;
+  color:#EAEAEA;
+}
+
+.button {
+  color: #EAEAEA;
+  border: 2px solid;
+  border-radius: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 4px 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  color: #757575;
+}
+
+.center {
+  text-align: center;
+}
+
+.full-width {
+  max-width: 100%;
+}
+
+.content {
+  background-color: rgba(255,255,255,45%);
+  padding: 16px;
+  border-radius: 32px;
+}
+
+.shadow {
+  text-shadow: 2px 2px #676262;
+}
+
+/* Grid
+====================================================================== */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Navigation
+====================================================================== */
+
+header {
+  background: rgba(255,255,255,25%);
+  max-width: 350px;
+  padding: 8px 16px;
+  border-radius: 32px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  position: sticky;
+  top: 16px;
+  backdrop-filter: blur(10px);
+}
+
+header a {
+  color: #EAEAEA;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+header a:hover {
+  opacity: 50%;
+}
